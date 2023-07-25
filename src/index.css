@@ -1,12 +1,12 @@
 body, html {
-  background-color: #F2E6D8;
+  background-color: white;
   padding: 0;
   margin: 0;
 }
 .App {
   margin: 0;
   padding: 0;
-  background-color: #F2E6D8;
+  background-color: white;
 }
 body::-webkit-scrollbar {
 	width: 12px;
@@ -56,7 +56,7 @@ body::-webkit-scrollbar-corner {
 }
 .btn:hover {
   background-color: #000087;
-  color: #F2E6D8;
+  color: white;
 }
 .subtitle, .page-title, .project-title, .btn {
   /* font-family: 'Merriweather', serif; */
@@ -101,5 +101,25 @@ body::-webkit-scrollbar-corner {
   text-align: center;
 }
 .project-text-container {
-  align-items: end;
+  align-items: center;
+}
+.contact-form {
+  max-width: 30%;
+}
+.contact-form label, .contact-form, .name-text {
+  font-family: 'Merriweather', serif;
+}
+.footage {
+  color: #000087;
+  background-color: white;
+}
+.footage-text:hover {
+  color: white;
+  background-color: #000087;
+}
+.form-control {
+  box-shadow: 2px 2px #000087;
+}
+.success-message {
+  margin-left: 20px;
 }
