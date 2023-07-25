@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "title": "Weather Dashboard",
+            "url": "https://chadbowler.github.io/weather-dashboard/",
+            "github": "https://github.com/ChadBowler/weather-dashboard",
+            "screenshot": "./src/images/weather_dashboard.png"
+        },
+        {
+            "title": "Meal Prep",
+            "url": "https://mateocassidy.github.io/Meal-Planner-Project/",
+            "github": "https://github.com/Mateocassidy/Meal-Planner-Project",
+            "screenshot": "./src/images/meal_prep_screenshot.png"
+        },
+        {
+            "title": "Stack 'em Back Blog",
+            "url": "https://stack-em-back-blog-d06f61c5c0a9.herokuapp.com/",
+            "github": "https://github.com/ChadBowler/Stack-em-Back-Blog",
+            "screenshot": "https://user-images.githubusercontent.com/127648744/254782172-611c944e-cafe-4ab0-ae12-d58ae229544f.png"
+        }
+    ]
+}
