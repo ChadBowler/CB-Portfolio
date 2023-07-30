@@ -4,7 +4,6 @@ import blogImg from './images/blog_screenshot.png';
 import projects from './data/projects.json';
 import Col from 'react-bootstrap/Col';
 
-
 const ProjectList = () => {
     const images = [{img: weatherImg}, {img: mealPrepImg}, {img: blogImg}];
     
@@ -13,7 +12,7 @@ const ProjectList = () => {
                 <Col className='row m-3' key={project.id}>
                     <Col className="row project-title-container">
                         <h3 className='project-title col'>{project.title}</h3>
-                        <div className="col-12">
+                        <div className="col-6 lg-col-12">
                             <a href={project.githubLink} rel="noreferrer" target='_blank' className="btn"><i className="fa-brands fa-github fs-2"></i></a>
                         </div>
                     </Col>
@@ -25,14 +24,13 @@ const ProjectList = () => {
                     <div className="col project-text-container">
                         <p className='content-text project-text'>{project.description}</p>
                     </div>
+                    <br />
+                    <hr className='hr hr-blurry mt-4' />
                 </Col>
+                
             ))
-            
          );
-    
-
-    
-}
+};
  
 export default ProjectList;
 

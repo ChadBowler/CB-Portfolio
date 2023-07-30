@@ -121,6 +121,7 @@ body::-webkit-scrollbar-corner {
 }
 .project-image {
   max-width: 800px;
+  min-width: 100px;
 }
 .project-image:hover {
   box-shadow: 4px 6px 6px #000087;
@@ -129,6 +130,7 @@ body::-webkit-scrollbar-corner {
 .project-title{
   padding: auto;
   margin: auto;
+  white-space: pre-wrap;
 }
 .project-text {
   text-align: end;
@@ -136,6 +138,11 @@ body::-webkit-scrollbar-corner {
 .project-title-container, .project-text-container {
   display: flex;
   text-align: center;
+}
+.project-title-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 .project-text-container {
   align-items: center;
@@ -205,4 +212,9 @@ body::-webkit-scrollbar-corner {
   50% {opacity: 0.6;}
   75% {opacity: 0.8;}
   100% {opacity: 1;}
+}
+@media screen and (max-width: 1200px) {
+  .project-title-container {
+    flex-direction: row;
+  }
 }
