@@ -1,0 +1,73 @@
+[
+    {
+        "quote": "To err is human, but to really foul things up you need a computer.",
+        "author": "Paul Ehrlich",
+        "source": "Wit",
+        "class": "show-quote",
+        "id": 1
+    },
+    {
+      "quote": "The computer was born to solve problems that did not exist before.",
+      "author": "Bill Gates",
+      "source": "The Road Ahead",
+      "class": "show-quote",
+      "id": 2
+    },
+    {
+      "quote": "Computers are the most remarkable tools ever invented, but they are also the most dangerous.",
+      "author": "Isaac Asimov",
+      "source": "The Computer and the Human Mind",
+      "class": "show-quote",
+      "id": 3
+    },
+    {
+      "quote": "The human brain is like a computer which will only give the right answers if you program it properly.",
+      "author": "Albert Einstein",
+      "source": "Unknown",
+      "class": "show-quote",
+      "id": 4
+    },
+    {
+      "quote": "Computers are like Old Testament gods; lots of rules and no mercy.",
+      "author": "Joseph Weizenbaum",
+      "source": "Computer Power and Human Reason",
+      "class": "show-quote",
+      "id": 5
+    },
+    {
+      "quote": "Never trust a computer you can't throw out a window.",
+      "author": "Steve Wozniak",
+      "source": "Unknown",
+      "class": "show-quote",
+      "id": 6
+    },
+    {
+      "quote": "The computer is a tool which helps us to extend our mental powers.",
+      "author": "Marvin Minsky",
+      "source": "The Society of Mind",
+      "class": "show-quote",
+      "id": 7
+    },
+    {
+      "quote": "I think computers should have emotions. Maybe then they would understand me better.",
+      "author": "Charles Stross",
+      "source": "Accelerando",
+      "class": "show-quote",
+      "id": 8
+    },
+    {
+      "quote": "Computers make it easier to do a lot of things, but most of the things they make easier are things that you shouldn't be doing in the first place.",
+      "author": "Andy Rooney",
+      "source": "60 Minutes",
+      "class": "show-quote",
+      "id": 9
+    },
+    {
+      "quote": "I think computers are wonderful machines. They're the only machines that can make you look smart by comparison.",
+      "author": "Bill Gates",
+      "source": "Unknown",
+      "class": "show-quote",
+      "id": 10
+    }
+  ]
+  

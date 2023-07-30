@@ -3,10 +3,23 @@ body, html {
   padding: 0;
   margin: 0;
 }
+#root {
+  height: 100dvh;
+  width: 100dvw;
+}
 .App {
   margin: 0;
   padding: 0;
   background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.home {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  /* background-image: url('./images/cityscape.png');
+  background-size: cover; */
 }
 body::-webkit-scrollbar {
 	width: 12px;
@@ -122,4 +135,35 @@ body::-webkit-scrollbar-corner {
 }
 .success-message {
   margin-left: 20px;
+}
+.quote {
+  font-family: 'Merriweather', serif;
+  quotes: "“" "”";
+}
+.quote-author {
+  font-family: 'Merriweather', serif;
+}
+.quote::before{
+  content: open-quote;
+}
+.quote::after{
+  content: close-quote;
+}
+.hidden {
+  display: none;
+}
+.show-quote {
+  opacity: 0;
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {opacity: 0;}
+  6% {opacity: 0.4;}
+  12% {opacity: 0.6;}
+  18% {opacity: 0.8;}
+  24% {opacity: 1;}
+  90% {opacity: 0.6;}
+  95% {opacity: 0;}
+  100% {opacity: 0;}
 }
