@@ -41,7 +41,7 @@ body::-webkit-scrollbar-corner {
 }
 .navbar {
   display: flex;
-  justify-content: space-around;
+  margin: auto; 
   padding-top: 12px;
   /* max-height: 15%; */
 }
@@ -52,10 +52,9 @@ body::-webkit-scrollbar-corner {
 /* .title {
   justify-content: flex-start;
 } */
-/* .navbar-nav {
-  display: flex;
-  align-items: center;
-} */
+.navbar-brand {
+  margin-right: 8% !important;
+}
 #my-name {
   margin: 0;
   font-family: 'Kalam', cursive;

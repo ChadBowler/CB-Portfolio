@@ -19,7 +19,7 @@ const Navigation = () => {
                 <Container className='d-none d-lg-flex justify-content-around'>
                     <img src={logo} alt="logo" />
                 </Container>
-                <Col className='d-flex d-lg-block justify-content-end'>
+                <Col className='d-flex justify-content-end'>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                     <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-lg`}
