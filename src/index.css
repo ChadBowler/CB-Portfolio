@@ -56,10 +56,9 @@ body::-webkit-scrollbar-corner {
   display: flex;
   align-items: center;
 } */
-.my-name {
+#my-name {
   margin: 0;
   font-family: 'Kalam', cursive;
-  font-size: 5rem;
   color: #000087;
   text-shadow: -1px 1px 2px #d8d8d8,
 				  1px 1px 2px #d8d8d8,
@@ -206,19 +205,4 @@ body::-webkit-scrollbar-corner {
   50% {opacity: 0.6;}
   75% {opacity: 0.8;}
   100% {opacity: 1;}
-}
-@media screen and (max-width: 1200){
-  .my-name {
-    font-size: 4rem !important;
-  }
-}
-@media screen and (max-width: 900){
-  .my-name {
-    font-size: 3rem !important;
-  }
-}
-@media screen and (max-width: 700){
-  .my-name {
-    font-size: 2rem !important;
-  }
 }

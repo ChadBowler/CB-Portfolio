@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Weather Dashboard",
+        "githubLink": "https://github.com/ChadBowler/weather-dashboard",
+        "deployedLink": "https://chadbowler.github.io/weather-dashboard/",
+        "screenshot": "",
+        "description": "A weather app to get current weather conditions and a 5-day forecast anywhere in the world!",
+        "id": 1
+    },
+    {
+        "title": "Meal Prep",
+        "githubLink": "https://github.com/Mateocassidy/Meal-Planner-Project",
+        "deployedLink": "https://mateocassidy.github.io/Meal-Planner-Project/",
+        "screenshot": "",
+        "description": "This meal planner gets a calculated daily calorie goal, then gives you the option to search for different foods to meet those goals. This was a collaborative group project.",
+        "id": 2
+    },
+    {
+        "title": "Stack 'em Back Blog",
+        "githubLink": "https://github.com/ChadBowler/Stack-em-Back-Blog",
+        "deployedLink": "https://stack-em-back-blog-d06f61c5c0a9.herokuapp.com/",
+        "screenshot": "",
+        "description": "This is a basic blog site where you can log in and add, delete, or update blog entries, and add or delete comments.",
+        "id": 3
+    }
+]

@@ -6,15 +6,15 @@ const About = () => {
             <h3 className="page-title fs-1">Who am I?</h3>
             <div className="container mt-5 backdrop">
                 <div className="row">
-                    <div className="col">
-                        <img className='photo-of-me' src={headshot} alt="professional headshot" />
+                    <div className="col col-12 col-lg">
+                        <img className='photo-of-me img img-fluid' src={headshot} alt="professional headshot" />
                     </div>
                     <div class="col" id="about-me">
                         <p className="content-text mt-5 fs-4">I am and always have been passionate about computers. I first started programming at a young age using languages such as Pascal, C++, and Dr Scheme.</p>
                             <br />
                             <p className="content-text fs-4"> As an adult I pursued a different career, and have recently returned back to the passion of my youth. I am in a Full Stack Coding Bootcamp through the University of Utah, and will be finished in October of 2023.</p>
                             <br />
-                            <p className="content-text fs-4" style={{color: 'white'}}>In my spare time I have also started learning Python.
+                            <p className="content-text fs-4 pb-5 mb-5" style={{color: 'white'}}>In my spare time I have also started learning Python.
                             I couldn't be more excited for a career change.
                         </p>
                     </div>
