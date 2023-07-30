@@ -1,13 +1,11 @@
-import Navbar from './Navbar';
-import Header from './Header';
+import Navigation from './Navigation';
 import { Outlet } from 'react-router-dom';
 import Footer from './Footer';
 
 const Layout = () => {
     return ( 
         <div className="App">
-            <Header title="CB Portfolio" />
-            <Navbar />
+            <Navigation />
             <Outlet />
             <Footer />
         </div>

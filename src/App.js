@@ -5,14 +5,8 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import * as React from "react";
-// import { createRoot } from "react-dom/client";
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-//   Route,
-//   Link,
-// } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
 function App() {

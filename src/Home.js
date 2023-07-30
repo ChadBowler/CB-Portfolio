@@ -1,17 +1,17 @@
-// import animation from './images/waving-stick-figure.png';
-// import quotes from './data/db.json';
-// import useQuoteTimer from './useQuoteTimer';
+import Container from 'react-bootstrap/Container';
 import QuoteBlock from './QuoteBlock';
 
 const Home = () => {
     
     return ( 
-        <div className="home container fade-in text-center mt-5">
+        <Container className="home fade-in">
+            
             <h2 className="page-title">Let's make this easy.</h2>
             
             <QuoteBlock />
-            
-        </div>
+       
+        </Container>
+        
         
      );
 }

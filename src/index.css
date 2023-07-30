@@ -42,12 +42,22 @@ body::-webkit-scrollbar-corner {
 .navbar {
   display: flex;
   justify-content: space-around;
+  padding-top: 12px;
+  /* max-height: 15%; */
 }
 .navbar a {
   text-decoration: none;
   margin-left: 20px;
 }
-.navbar h1 {
+/* .title {
+  justify-content: flex-start;
+} */
+/* .navbar-nav {
+  display: flex;
+  align-items: center;
+} */
+.my-name {
+  margin: 0;
   font-family: 'Kalam', cursive;
   font-size: 5rem;
   color: #000087;
@@ -56,16 +66,25 @@ body::-webkit-scrollbar-corner {
 				  1px -1px 0 #d8d8d8,
 				  -1px -1px 0 #d8d8d8;
 }
+
 .navbar img {
   height: 150px;
   width: 150px;
   filter: drop-shadow(10px 10px 10px #A4BBFF);
+}
+.sidenav-menu li {
+  list-style-type: none;
+  text-decoration: none;
 }
 .links {
   justify-content: end;
 }
 .links .btn, .btn {
   box-shadow: 2px 3px 3px #000087;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
 }
 .btn:hover {
   background-color: #000087;
@@ -74,6 +93,12 @@ body::-webkit-scrollbar-corner {
 .subtitle, .page-title, .project-title, .btn {
   /* font-family: 'Merriweather', serif; */
   font-family: 'Roboto Slab', serif;
+}
+.subtitle {
+  margin: auto;
+}
+.home {
+  text-align: center;
 }
 .photo-of-me {
   max-width: 600px;
@@ -181,4 +206,19 @@ body::-webkit-scrollbar-corner {
   50% {opacity: 0.6;}
   75% {opacity: 0.8;}
   100% {opacity: 1;}
+}
+@media screen and (max-width: 1200){
+  .my-name {
+    font-size: 4rem !important;
+  }
+}
+@media screen and (max-width: 900){
+  .my-name {
+    font-size: 3rem !important;
+  }
+}
+@media screen and (max-width: 700){
+  .my-name {
+    font-size: 2rem !important;
+  }
 }
