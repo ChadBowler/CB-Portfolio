@@ -32,7 +32,7 @@ const Contact = () => {
       };
     
       return (
-        <div className="contiainer">
+        <div className="contiainer fade-in">
             <div className="row justify-content-center align-items-center">
                 <div className="contact container text-center mt-5 col-12">
                     <h3 className="page-title">How can you find me?</h3>

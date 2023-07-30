@@ -10,7 +10,7 @@ const useQuoteTimer = (quotes) => {
             let randomQuote = quotes[randomNum];
             setQuote(randomQuote)
     return (randomQuote) 
-        }, 5000);
+        }, 7000);
     }, []);
     return(quote)
 }

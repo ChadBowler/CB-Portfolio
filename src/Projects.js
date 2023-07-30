@@ -4,7 +4,7 @@ import blogImg from './images/blog_screenshot.png';
 
 const Projects = () => {
     return ( 
-        <div className="projects p-5">
+        <div className="projects fade-in p-5">
             <div className="projects container text-center mt-5">
                 <h3 className="page-title">What can I do?</h3>
             </div>

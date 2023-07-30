@@ -2,7 +2,7 @@ import headshot from './images/Professional_headshot_no_bg.png'
 
 const About = () => {
     return ( 
-        <div className="about container text-center mt-5">
+        <div className="about container fade-in text-center mt-5">
             <h3 className="page-title fs-1">Who am I?</h3>
             <div className="container mt-5 backdrop">
                 <div className="row">

@@ -6,7 +6,7 @@ import QuoteBlock from './QuoteBlock';
 const Home = () => {
     
     return ( 
-        <div className="home container text-center mt-5">
+        <div className="home container fade-in text-center mt-5">
             <h2 className="page-title">Let's make this easy.</h2>
             
             <QuoteBlock />
