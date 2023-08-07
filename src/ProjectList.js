@@ -1,11 +1,11 @@
-import weatherImg from './images/weather_dashboard.png';
+import NinjaImg from './images/Productivity_Ninja_Screenshot.png';
 import mealPrepImg from './images/meal_prep_screenshot.png';
 import blogImg from './images/blog_screenshot.png';
 import projects from './data/projects.json';
 import Col from 'react-bootstrap/Col';
 
 const ProjectList = () => {
-    const images = [{img: weatherImg}, {img: mealPrepImg}, {img: blogImg}];
+    const images = [{img: NinjaImg}, {img: mealPrepImg}, {img: blogImg}];
     
         return ( 
             projects.map((project) => (
