@@ -5,14 +5,9 @@ const Home = () => {
     
     return ( 
         <Container className="home fade-in">
-            
             <h2 className="page-title">Let's make this easy.</h2>
-            
             <QuoteBlock />
-       
         </Container>
-        
-        
      );
 }
  

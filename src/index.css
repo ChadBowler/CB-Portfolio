@@ -43,15 +43,12 @@ body::-webkit-scrollbar-corner {
   display: flex;
   margin: auto; 
   padding-top: 12px;
-  /* max-height: 15%; */
 }
 .navbar a {
   text-decoration: none;
   margin-left: 20px;
 }
-/* .title {
-  justify-content: flex-start;
-} */
+
 .navbar-brand {
   margin-right: 8% !important;
 }
@@ -89,7 +86,6 @@ body::-webkit-scrollbar-corner {
   color: white;
 }
 .subtitle, .page-title, .project-title, .btn {
-  /* font-family: 'Merriweather', serif; */
   font-family: 'Roboto Slab', serif;
 }
 .subtitle {
@@ -105,17 +101,11 @@ body::-webkit-scrollbar-corner {
 }
 .content-text {
   font-family: 'Merriweather', serif;
-  /* text-shadow: -1px 1px 0px #d8d8d8,
-				  1px 1px 0px #d8d8d8,
-				  1px -1px 0 #d8d8d8,
-				  -1px -1px 0 #d8d8d8; */
+
 }
 .backdrop {
   background: rgb(0,0,135);
   background: linear-gradient(0deg, rgba(0,0,135,1) 0%, rgba(250,235,215,0.24413515406162467) 40%);
-  /* background-color: rgba(0, 42, 208, 0.3); */
-  /* background-image: url('./images/cbowlerdev_light_aesthetic_background_circles_ce02ba7a-2afe-433c-96cf-66988d01308c.png');
-  background-size: cover; */
   border-radius: 15px;
 }
 .project-image {

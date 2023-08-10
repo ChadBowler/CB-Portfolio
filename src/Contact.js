@@ -2,8 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import resume from './Chad_Bowler_Resume.pdf'
 import { useState } from 'react';
-// import 'dotenv/config';
-// const resume = 'https://github.com/ChadBowler/cb-portfolio/blob/main/Chad_Bowler_Resume.pdf';
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
 const MAIL_JS_PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
@@ -38,8 +36,6 @@ const Contact = () => {
                     <h3 className="page-title">How can you find me?</h3>
                 </div>
                 <div className="contact-form col-5"> 
-                {/* <i class="fa-solid fa-arrow-down"></i>
-                <span> You can email me here. </span> */}
                     <form ref={form} onSubmit={sendEmail} className='mt-4'>
                         <label className='form-label'>Name</label>
                         <input type="text" required className='form-name form-control mb-2' name="from_name" />
@@ -57,7 +53,5 @@ const Contact = () => {
             </div>
         </div>
       );
-
 }
- 
 export default Contact;
