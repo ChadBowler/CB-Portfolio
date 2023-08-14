@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="contact container text-center mt-5 col-12">
                     <h3 className="page-title">How can you find me?</h3>
                 </div>
-                <div className="contact-form col-5"> 
+                <div className="contact-form col-sm-4 col-10"> 
                     <form ref={form} onSubmit={sendEmail} className='mt-4'>
                         <label className='form-label'>Name</label>
                         <input type="text" required className='form-name form-control mb-2' name="from_name" />
