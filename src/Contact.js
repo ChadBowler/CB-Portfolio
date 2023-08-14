@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="contiainer contact-container fade-in">
             <div className="row justify-content-center align-items-center">
                 <div className="contact container text-center mt-5 col-12">
-                    <h3 className="page-title">How can you find me?</h3>
+                    <h3 className="page-title fs-1">How can you find me?</h3>
                 </div>
                 <div className="contact-form col-sm-4 col-10"> 
                     <form ref={form} onSubmit={sendEmail} className='mt-4'>
