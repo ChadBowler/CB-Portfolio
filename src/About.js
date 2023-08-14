@@ -14,7 +14,7 @@ const About = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm>
+                <Col md>
                     <Row>
                         <Row>
                             <Col>
@@ -60,12 +60,12 @@ const About = () => {
                         </Row>
                     </Row>
                 </Col>
-                <Col sm className='my-photo-container'>
+                <Col md className='my-photo-container'>
                     <Container>
                         <img className='photo-of-me img img-fluid' src={headshot} alt="professional headshot" />
                     </Container>
                 </Col>
-                <Col sm>
+                <Col md>
                     <Row>
                         <Row>
                             <Col>
