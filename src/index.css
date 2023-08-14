@@ -96,6 +96,11 @@ body::-webkit-scrollbar-corner {
   width: 150px;
   filter: drop-shadow(10px 10px 10px #A4BBFF);
 }
+.header-logo {
+  max-height: 50px;
+  max-width: 50px;
+  justify-self: flex-start;
+}
 .sidenav-menu li {
   list-style-type: none;
   text-decoration: none;

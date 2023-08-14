@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Image from 'react-bootstrap/Image';
 
 
 const Navigation = () => {
@@ -12,12 +13,17 @@ const Navigation = () => {
     <>
         <Navbar collapseOnSelect className='navigation' expand="lg">
             <Container fluid className="title">
+            
                 <Navbar.Brand className='name-and-title'>
+                    
                     <span className='display-1' id='my-name'>Chad Bowler</span>
+                    <Image className='header-logo m-3 mb-5' src={logo} alt="logo" />
                     <h2 className='subtitle display-8'>Full Stack Developer</h2>
+                    
                 </Navbar.Brand>
+                
                 <Container className='d-none d-lg-flex justify-content-around'>
-                    <img src={logo} alt="logo" />
+                    
                 </Container>
                 <Col className='d-flex justify-content-end'>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
