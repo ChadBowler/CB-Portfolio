@@ -1,20 +1,20 @@
-# Chad Bowler - Developer
+# Chad Bowler - Developer 👨🏽‍💻
 
 # ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This showcases me as a developer, and allows me to display some of my work. The site is developed using React, and deployed on Heroku.
+My Portfolio Showcase is not just a website; it's a dynamic canvas where my journey as a developer comes to life. Crafted meticulously with React, this platform provides a window into my skills, projects, and passion for innovation.
 
 ## Table of Contents
 
-- [Installation](#Installation)
+- [Live Site](#live-site)
 - [Usage](#Usage)
 - [License](#License)
 - [Questions](#Questions)
 
-## Installation
+## Live Site
 
-* No installation. Visit the live [site](https://cb-portfolio-041593c53249.herokuapp.com/).
+* Visit the live [site](https://cb-portfolio-041593c53249.herokuapp.com/).
 
 ## Screenshot
 
@@ -24,8 +24,10 @@ This showcases me as a developer, and allows me to display some of my work. The 
 
 * This application is licenced under the [MIT License](https://opensource.org/licenses/MIT)
 
-## Questions
+## Contact
+
+My Portfolio Showcase is more than a digital presence; it's an open invitation to connect, collaborate, and create. Witness firsthand how code can transform into captivating experiences. Explore the possibilities, and let's embark on a journey of innovation together.
 
 * Checkout my Github! [ChadBowler](https://www.github.com/ChadBowler)
 
-* If you have questions, feel free to contact me at: cbowlerdev@gmail.com
+* Collaboration begins with a conversation. Reach out to me directly through the contact section. Whether you're interested in my work or exploring potential partnerships, I'm just a message away at: cbowlerdev@gmail.com
