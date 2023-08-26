@@ -8,9 +8,9 @@ My Portfolio Showcase is not just a website; it's a dynamic canvas where my jour
 ## Table of Contents
 
 - [Live Site](#live-site)
-- [Usage](#Usage)
+- [Screenshot](#screenshot)
 - [License](#License)
-- [Questions](#Questions)
+- [Contact](#Contact)
 
 ## Live Site
 
