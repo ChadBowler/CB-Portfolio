@@ -20,7 +20,7 @@
         "githubLink": "https://github.com/ChadBowler/Stack-em-Back-Blog",
         "deployedLink": "https://stack-em-back-blog-d06f61c5c0a9.herokuapp.com/",
         "screenshot": "",
-        "description": "This is a basic blog site where you can log in and add, delete, or update blog entries, and add or delete comments.",
+        "description": "A dynamic CMS-style blog site that empowers individuals to unleash their creativity through compelling blog posts and engaging discussions.",
         "id": 3
     }
 ]
