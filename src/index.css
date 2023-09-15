@@ -111,6 +111,7 @@ body::-webkit-scrollbar-corner {
 .links .btn, .btn {
   box-shadow: 2px 3px 3px #000087;
 }
+
 .btn {
   padding: 10px;
   border-radius: 10px;

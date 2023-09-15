@@ -8,7 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Image from 'react-bootstrap/Image';
 
 
-const Navigation = () => {
+const Navigation = ({ currentRoute }) => {
     return ( 
     <>
         <Navbar collapseOnSelect className='navigation' expand="lg">
@@ -38,12 +38,12 @@ const Navigation = () => {
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="links m-5">
-                                <Link to='/' className='btn btn-lg mt-3'>Home</Link>
-                                <Link to='/about' className='btn btn-lg mt-3'>About</Link>
-                                <Link to='/projects' className='btn btn-lg mt-3'>Projects</Link>
-                                <Link to='/contact' className='btn btn-lg mt-3'>Contact</Link>
-                            </Nav>
+                        <Nav className="links m-5">
+                            <Link to='/' className={`btn btn-lg mt-3 ${currentRoute === '/' ? 'active' : ''}`}>Home</Link>
+                            <Link to='/about' className={`btn btn-lg mt-3 ${currentRoute === '/about' ? 'active' : ''}`}>About</Link>
+                            <Link to='/projects' className={`btn btn-lg mt-3 ${currentRoute === '/projects' ? 'active' : ''}`}>Projects</Link>
+                            <Link to='/contact' className={`btn btn-lg mt-3 ${currentRoute === '/contact' ? 'active' : ''}`}>Contact</Link>
+                        </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Col>
