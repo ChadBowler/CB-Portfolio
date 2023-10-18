@@ -8,12 +8,20 @@
         "id": 1
     },
     {
+        "title": "Employ Me Now",
+        "githubLink": "https://github.com/ChadBowler/employ-me-now",
+        "deployedLink": "https://employ-me-now-d264f478796e.herokuapp.com/",
+        "screenshot": "",
+        "description": "Employ Me Now is a simple, user-friendly job board web application utilizing dynamic React, and deployed through Heroku. Users are able to create and edit profiles, view and create job postings, and apply to jobs. The goal of this application is to simplify the task of searching for jobs/candidates for both prospective recruiters and job-seekers.",
+        "id": 2
+    },
+    {
         "title": "Eazy Mealz",
         "githubLink": "https://github.com/Mateocassidy/Meal-Planner-Project",
         "deployedLink": "https://mateocassidy.github.io/Meal-Planner-Project/",
         "screenshot": "",
         "description": "This meal planner gets a calculated daily calorie goal, then gives you the option to search for different foods to meet those goals. This was a collaborative group project.",
-        "id": 2
+        "id": 3
     },
     {
         "title": "Stack 'em Back Blog",
@@ -21,6 +29,6 @@
         "deployedLink": "https://stack-em-back-blog-d06f61c5c0a9.herokuapp.com/",
         "screenshot": "",
         "description": "A dynamic CMS-style blog site that empowers individuals to unleash their creativity through compelling blog posts and engaging discussions.",
-        "id": 3
+        "id": 4
     }
 ]

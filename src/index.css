@@ -132,6 +132,7 @@ body::-webkit-scrollbar-corner {
   max-width: 600px;
   max-height: 600px;
   border-radius: 50%;
+  border: 3px solid #000087;
 }
 .my-photo-container {
   display: grid;

@@ -1,12 +1,13 @@
 import NinjaImg from './images/Productivity_Ninja_Screenshot.png';
 import mealPrepImg from './images/meal_prep_screenshot.png';
 import blogImg from './images/blog_screenshot.png';
+import emnImg from './images/employ-me-now-screenshot.png';
 import projects from './data/projects.json';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 const ProjectList = () => {
-    const images = [{img: NinjaImg}, {img: mealPrepImg}, {img: blogImg}];
+    const images = [{img: NinjaImg}, {img: emnImg}, {img: mealPrepImg}, {img: blogImg}];
     
         return ( 
             projects.map((project) => (
